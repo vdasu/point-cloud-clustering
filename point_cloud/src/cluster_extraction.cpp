@@ -68,16 +68,6 @@ public:
 
 		avg_dist /=  size;
 
-		// if(size<=10){
-		// 	tolerance = 0.4;
-		// }else if(size<=20){
-		// 	tolerance = 0.6;
-		// }else if(size<=30){
-		// 	tolerance = 0.8;
-		// }else{
-		// 	tolerance = 1.0;
-		// }
-
 		if(avg_dist<=7) {
 			tolerance = 0.65;
 		} else if(avg_dist<=10) {
